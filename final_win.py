@@ -22,6 +22,3 @@ class FinalWin(QWidget):
         self.layout.addWidget(self.result)
         self.layout.addWidget(self.grading)
         self.setLayout(self.layout)
-app = QApplication([])
-mw = FinalWin()
-app.exec_()
